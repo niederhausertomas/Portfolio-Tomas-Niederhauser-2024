@@ -1,0 +1,177 @@
+main{
+    background-color: rgb(29, 29, 29);
+}
+
+#frontend {
+    padding: 40px;
+    width: 100%;
+    height: 150px;
+    font-size: 50px;
+    text-align: center;
+    color: #7e7777;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_57421.jpg?raw=true"); 
+}
+
+#proyects {
+    color: #7e7777;
+    margin-top: 50px; 
+}
+
+
+.proyectsContainer {
+    width: 100%;
+    margin-top: 50px; 
+}
+
+.proyectsContainer .card {
+    height: 350px;
+    width: 100px;
+    margin: 20px 10px 50px 10px; 
+    background-color:  rgb(29, 29, 29);
+    border-color: #7e7777;
+}
+
+.proyectsContainer .card:hover {
+    margin-top: 17px;
+    transition: 0.5s; 
+}
+
+.proyectsContainer .card-title {
+    font-weight: bolder;
+    color: #7e7777; 
+}
+
+.proyectsContainer .card-text {
+    color: #7e7777; 
+}
+
+.proyectsContainer .btn {
+    bottom: 5px; 
+    background-color: rgb(29, 29, 29);
+    border-color: rgb(43, 43, 43);
+    color: #7e7777; 
+}
+
+.proyectsContainer .btn:hover {
+    background-color: rgb(43, 43, 43);
+    border-color: #7e7777;
+}
+
+#lenguajes {
+    padding: 40px;
+    width: 100%;
+    height: 150px;
+    font-size: 50px;
+    text-align: center;
+    color: #7e7777;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_5617.jpg?raw=true"); 
+}
+
+.containerIconos {
+    height: 400px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    text-align: center; 
+}
+  
+.iconos {
+    width: 100%;
+    text-align: center; 
+}
+  
+.icono {
+    height: 200px;
+    width: 100px; 
+}
+  
+.icono img {
+    height: 50px;
+    margin-top: 75px;
+    margin-bottom: 75px;
+    margin-left: 20px;
+    display: block; 
+}
+  
+.icono:hover img {
+    height: 65px;
+    margin-top: 60px;
+    transition: 1s; 
+}
+  
+.icono span {
+    display: none; 
+    text-decoration: none;
+}
+  
+.icono:hover span {
+    display: block;
+    transition: 4s; 
+    color: #7e7777;
+    text-decoration: none;
+}
+  
+.icono span {
+    font-size: 14px;
+    margin-top: -50px; 
+    color: #7e7777;
+}
+  
+#studies {
+    padding: 40px;
+    width: 100%;
+    height: 150px;
+    font-size: 50px;
+    text-align: center;
+    color: #7e7777;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_5647.jpg?raw=true"); 
+}
+  
+.estudios {
+margin: 5px auto 5px auto;
+padding: 25PX;
+width: 95%;
+height: 550px;
+font-size: 30px;
+color: #7e7777;
+margin: 20px; }
+.estudios li {
+    margin: 40px 0 20px 0; }
+  
+  #about {
+    padding: 40px;
+    width: 100%;
+    height: 150px;
+    font-size: 50px;
+    text-align: center;
+    color: #7e7777;
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+    background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_5968.JPG?raw=true"); }
+  
+  #parrafo {
+    width: 90%;
+    height: 490px;
+    padding: 25px;
+    font-size: x-large;
+    margin: 25px;
+    color: #7e7777; }
+  

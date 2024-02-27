@@ -1,0 +1,66 @@
+
+header{
+    background-color: rgb(29, 29, 29);
+}
+
+.nav-item a{
+    color: #7e7777;
+}
+
+.nav-item a:hover{
+    color: #a59f9f;
+}
+
+.nav-item:hover {
+    padding-top: 3px;
+    margin-bottom: -3px;
+    transition: 1s; 
+}
+
+#fotoNombre {
+    width: 100%;
+    height: 450px;
+    flex-wrap: wrap;
+    padding: 0px;
+    align-items: center; 
+}
+
+.foto {
+    height: 250px;
+    width: 250px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-top: 70px;
+    margin-bottom: 10px; 
+}
+
+#nombre {
+text-align: center;
+color: #7e7777;
+font-size: 40px;
+margin-top: 10px;
+margin-bottom: 10px; 
+}
+
+#btnWhatsApp {
+    position: fixed;
+    top: 40px;
+    right: 40px;
+    height: 40px;
+    width: 40px;
+    line-height: 35px;
+    text-align: center;
+    color: #fff;
+    z-index: 1000;
+    background-color: #00CD54;
+    border-radius: 50%;
+    cursor: pointer; 
+}
+
+#btnWhatsApp:hover {
+    height: 45px;
+    width: 45px;
+    line-height: 40px;
+    transition: 0.5s; 
+    background-color: #00CD54;
+}
