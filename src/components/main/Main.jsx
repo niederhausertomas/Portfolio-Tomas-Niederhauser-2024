@@ -107,31 +107,43 @@ const Main = () => {
 						</li>
 						<li className="icono">
 							<img src="images/Bootstrap.png" alt=""/>
-							<span>BOOTSTRAP</span>
+							<span>Bootstrap</span>
 						</li>
 						<li className="icono">
 							<img src="images/javascript.png" alt=""/>
-							<span>JAVASCRIP</span>
+							<span>Javascrip</span>
 						</li>
 						<li className="icono">
 							<img src="images/react.png" alt=""/>
-							<span>REACT.JS</span>
+							<span>React.js</span>
 						</li>
 						<li className="icono">
 							<img src="images/firebase.png" alt=""/>
-							<span>FIREBASE</span>
+							<span>Firebase</span>
 						</li>
 						<li className="icono">
 							<img src="images/git.png" alt=""/>
-							<span>GIT</span>
+							<span>Git</span>
 						</li>
 						<li className="icono">
 							<img src="images/github.png" alt=""/>
-							<span>GITHUB</span>
+							<span>Github</span>
 						</li>
 						<li className="icono">
 							<img src="images/c++.png" alt=""/>
 							<span>C++</span>
+						</li>
+						<li className="icono">
+							<img src="images/wordpress.png" alt=""/>
+							<span>Wordpress</span>
+						</li>
+						<li className="icono">
+							<img src="images/vueJs.png" alt=""/>
+							<span>Vue.js</span>
+						</li>
+						<li className="icono">
+							<img src="images/sql.png" alt=""/>
+							<span>Sql</span>
 						</li>
 					</ul>
 				</div>

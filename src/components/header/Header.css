@@ -4,7 +4,7 @@ header{
 }
 
 .nav-item a{
-    color: #7e7777;
+    color: #aaa8a8;
 }
 
 .nav-item a:hover{
@@ -35,11 +35,11 @@ header{
 }
 
 #nombre {
-text-align: center;
-color: #7e7777;
-font-size: 40px;
-margin-top: 10px;
-margin-bottom: 10px; 
+    text-align: center;
+    color: #aaa8a8;
+    font-size: 40px;
+    margin-top: 10px;
+    margin-bottom: 10px; 
 }
 
 #btnWhatsApp {

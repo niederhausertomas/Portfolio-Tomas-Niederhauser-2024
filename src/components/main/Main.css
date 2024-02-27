@@ -8,7 +8,7 @@ main{
     height: 150px;
     font-size: 50px;
     text-align: center;
-    color: #7e7777;
+    color: #aaa8a8;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -18,7 +18,7 @@ main{
 }
 
 #proyects {
-    color: #7e7777;
+    color: #aaa8a8;
     margin-top: 50px; 
 }
 
@@ -33,7 +33,7 @@ main{
     width: 100px;
     margin: 20px 10px 50px 10px; 
     background-color:  rgb(29, 29, 29);
-    border-color: #7e7777;
+    border-color: #aaa8a8;
 }
 
 .proyectsContainer .card:hover {
@@ -43,23 +43,23 @@ main{
 
 .proyectsContainer .card-title {
     font-weight: bolder;
-    color: #7e7777; 
+    color: #aaa8a8; 
 }
 
 .proyectsContainer .card-text {
-    color: #7e7777; 
+    color: #aaa8a8;
 }
 
 .proyectsContainer .btn {
     bottom: 5px; 
     background-color: rgb(29, 29, 29);
     border-color: rgb(43, 43, 43);
-    color: #7e7777; 
+    color: #aaa8a8;
 }
 
 .proyectsContainer .btn:hover {
     background-color: rgb(43, 43, 43);
-    border-color: #7e7777;
+    border-color: #aaa8a8;
 }
 
 #lenguajes {
@@ -68,7 +68,7 @@ main{
     height: 150px;
     font-size: 50px;
     text-align: center;
-    color: #7e7777;
+    color: #aaa8a8;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -86,27 +86,30 @@ main{
 }
   
 .iconos {
+    list-style: none;
     width: 100%;
     text-align: center; 
 }
-  
+
 .icono {
-    height: 200px;
-    width: 100px; 
+    height: 190px;
+    width: 90px; 
 }
   
 .icono img {
-    height: 50px;
+    height: 40px;
     margin-top: 75px;
     margin-bottom: 75px;
-    margin-left: 20px;
+    margin-left: 0px;
     display: block; 
 }
   
 .icono:hover img {
-    height: 65px;
+    height: 55px;
     margin-top: 60px;
     transition: 1s; 
+    text-decoration: none;
+
 }
   
 .icono span {
@@ -117,14 +120,14 @@ main{
 .icono:hover span {
     display: block;
     transition: 4s; 
-    color: #7e7777;
+    color: #aaa8a8;
     text-decoration: none;
 }
   
 .icono span {
     font-size: 14px;
     margin-top: -50px; 
-    color: #7e7777;
+    color: #aaa8a8;
 }
   
 #studies {
@@ -133,7 +136,7 @@ main{
     height: 150px;
     font-size: 50px;
     text-align: center;
-    color: #7e7777;
+    color: #aaa8a8;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -148,7 +151,7 @@ padding: 25PX;
 width: 95%;
 height: 550px;
 font-size: 30px;
-color: #7e7777;
+color: #aaa8a8;
 margin: 20px; }
 .estudios li {
     margin: 40px 0 20px 0; }
@@ -159,7 +162,7 @@ margin: 20px; }
     height: 150px;
     font-size: 50px;
     text-align: center;
-    color: #7e7777;
+    color: #aaa8a8;
     background-attachment: fixed;
     background-position: center;
     background-repeat: no-repeat;
@@ -173,5 +176,5 @@ margin: 20px; }
     padding: 25px;
     font-size: x-large;
     margin: 25px;
-    color: #7e7777; }
+    color: #aaa8a8; }
   
