@@ -178,3 +178,53 @@ margin: 20px; }
     margin: 25px;
     color: #aaa8a8; }
   
+
+
+
+
+
+    @media only screen and (max-width: 420px) {
+        * {
+          overflow-x: hidden; }
+        #frontend {
+          margin-bottom: 20px;
+          font-size: 40px;
+          height: 200px;
+           }
+        .flex-container {
+          height: 400px;
+          margin: 0;
+          padding: 0; }
+        .card:hover {
+          margin-top: 0px; }
+        .containerIconos {
+          height: 815px; }
+        .estudios {
+          height: 650px;
+          font-size: 20px;
+          color: #7e7777;
+          margin: 0px; }
+        #parrafo {
+          width: 99%;
+          height: 900px;
+          padding: 10px;
+          font-size: 20px;
+          margin: 0px; }
+         }
+      
+      @media only screen and (min-width: 421px) and (max-width: 1023px) {
+        #frontend {
+          margin-bottom: 0px; }
+        .flex-container {
+          height: 400px;
+          margin-top: 20px; }
+        .estudios {
+          height: 600px;
+          font-size: 30px;
+          margin: 0px; }
+        #parrafo {
+          width: 99%;
+          height: 650px;
+          padding: 10px;
+          font-size: 25px; }
+        }
