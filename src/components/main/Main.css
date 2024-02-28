@@ -17,18 +17,18 @@ main{
     background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_57421.jpg?raw=true"); 
 }
 
-#proyects {
+#projects {
     color: #aaa8a8;
     margin-top: 50px; 
 }
 
 
-.proyectsContainer {
+.projectsContainer {
     width: 100%;
     margin-top: 50px; 
 }
 
-.proyectsContainer .card {
+.projectsContainer .card {
     height: 350px;
     width: 100px;
     margin: 20px 10px 50px 10px; 
@@ -36,28 +36,28 @@ main{
     border-color: #aaa8a8;
 }
 
-.proyectsContainer .card:hover {
+.projectsContainer .card:hover {
     margin-top: 17px;
     transition: 0.5s; 
 }
 
-.proyectsContainer .card-title {
+.projectsContainer .card-title {
     font-weight: bolder;
     color: #aaa8a8; 
 }
 
-.proyectsContainer .card-text {
+.projectsContainer .card-text {
     color: #aaa8a8;
 }
 
-.proyectsContainer .btn {
+.projectsContainer .btn {
     bottom: 5px; 
     background-color: rgb(29, 29, 29);
     border-color: rgb(43, 43, 43);
     color: #aaa8a8;
 }
 
-.proyectsContainer .btn:hover {
+.projectsContainer .btn:hover {
     background-color: rgb(43, 43, 43);
     border-color: #aaa8a8;
 }
@@ -78,7 +78,7 @@ main{
 }
 
 .containerIconos {
-    height: 400px;
+    height: 200px;
     display: flex;
     align-items: center;
     width: 100%;
@@ -94,14 +94,16 @@ main{
 .icono {
     height: 190px;
     width: 90px; 
+    text-align: center;
 }
   
 .icono img {
     height: 40px;
     margin-top: 75px;
     margin-bottom: 75px;
-    margin-left: 0px;
-    display: block; 
+    margin-left: auto;  
+    margin-right: auto; 
+    display: block;
 }
   
 .icono:hover img {
@@ -146,17 +148,20 @@ main{
 }
   
 .estudios {
-margin: 5px auto 5px auto;
-padding: 25PX;
-width: 95%;
-height: 550px;
-font-size: 30px;
-color: #aaa8a8;
-margin: 20px; }
+    margin: 5px auto 5px auto;
+    padding: 25PX;
+    width: 95%;
+    height: 550px;
+    font-size: 30px;
+    color: #aaa8a8;
+    margin: 20px; 
+}
+
 .estudios li {
-    margin: 40px 0 20px 0; }
+    margin: 40px 0 20px 0; 
+}
   
-  #about {
+#about {
     padding: 40px;
     width: 100%;
     height: 150px;
@@ -168,63 +173,83 @@ margin: 20px; }
     background-repeat: no-repeat;
     background-size: cover;
     position: relative;
-    background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_5968.JPG?raw=true"); }
+    background-image: url("https://github.com/niederhausertomas/porfolio-Tomas-Niederhauser/blob/main/imagenes/IMG_5968.JPG?raw=true"); 
+}
   
-  #parrafo {
+#parrafo {
     width: 90%;
     height: 490px;
     padding: 25px;
     font-size: x-large;
     margin: 25px;
-    color: #aaa8a8; }
+    color: #aaa8a8; 
+}
   
+@media only screen and (max-width: 420px) {
+    * {
+        overflow-x: hidden; 
+    }
+    
+    #frontend {
+        margin-bottom: 20px;
+        font-size: 40px;
+        height: 200px;
+    }
+    
+    .flex-container {
+        height: 400px;
+        margin: 0;
+        padding: 0; 
+    }
+    
+    .card:hover {
+        margin-top: 0px; 
+    }
 
+    .containerIconos {
+        height: 1000px; 
+    }
 
+    .estudios {
+        height: 650px;
+        font-size: 20px;
+        color: #7e7777;
+        margin: 0px; 
+    }
+    
+    #parrafo {
+        width: 99%;
+        height: 900px;
+        padding: 10px;
+        font-size: 20px;
+        margin: 0px; 
+    }
+}
 
+@media only screen and (min-width: 421px) and (max-width: 1023px) {
+    #frontend {
+        margin-bottom: 0px; 
+    }
 
+    .flex-container {
+        height: 400px;
+        margin-top: 20px; 
+    }
 
-    @media only screen and (max-width: 420px) {
-        * {
-          overflow-x: hidden; }
-        #frontend {
-          margin-bottom: 20px;
-          font-size: 40px;
-          height: 200px;
-           }
-        .flex-container {
-          height: 400px;
-          margin: 0;
-          padding: 0; }
-        .card:hover {
-          margin-top: 0px; }
-        .containerIconos {
-          height: 815px; }
-        .estudios {
-          height: 650px;
-          font-size: 20px;
-          color: #7e7777;
-          margin: 0px; }
-        #parrafo {
-          width: 99%;
-          height: 900px;
-          padding: 10px;
-          font-size: 20px;
-          margin: 0px; }
-         }
-      
-      @media only screen and (min-width: 421px) and (max-width: 1023px) {
-        #frontend {
-          margin-bottom: 0px; }
-        .flex-container {
-          height: 400px;
-          margin-top: 20px; }
-        .estudios {
-          height: 600px;
-          font-size: 30px;
-          margin: 0px; }
-        #parrafo {
-          width: 99%;
-          height: 650px;
-          padding: 10px;
-          font-size: 25px; }
-        }
+    .containerIconos {
+        height: 300px; 
+    }
+
+    .estudios {
+        height: 600px;
+        font-size: 30px;
+        margin: 0px; 
+    }
+
+    #parrafo {
+        width: 99%;
+        height: 900px;
+        padding: 10px;
+        font-size: 25px;
+    }
+}

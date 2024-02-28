@@ -28,4 +28,28 @@ footer a:hover {
     margin-bottom: -5px;
     transition: 1s; 
 }
+
+
+@media only screen and (max-width: 420px) {
+    * {
+      overflow-x: hidden; 
+    }
+    
+    footer {
+      margin-top: 0px;
+      width: 100%; 
+    }
+    
+    .nav-item:hover {
+      padding-top: 0px;
+      margin-bottom: 0px;
+      transition: none; 
+    } 
+}
   
+@media only screen and (min-width: 421px) and (max-width: 1023px) {
+    footer {
+        margin-top: 120px;
+        width: 100%;
+    }
+}
