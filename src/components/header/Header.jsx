@@ -16,7 +16,7 @@ const Header = () => {
                                 <a className="nav-link" href="#projects">Projects</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="#lenguajes">Languages</a>
+                                <a className="nav-link" href="#Skills">Skills</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="#studies">Studies</a>
@@ -39,6 +39,9 @@ const Header = () => {
 							Tomás <br/>
 							Niederhauser
 						</h2>
+                    <div className='frontendContainer'>
+                        <h1 id="frontend">Front-end Developer</h1>
+                    </div>
 				</div>
 			</nav>
 			<a href="https://wa.me/34600517772" target="blank" id="btnWhatsApp">
