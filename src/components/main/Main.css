@@ -1,4 +1,4 @@
-
+ 
 #projects {
     margin-top: 50px;
     color: #aaa8a8; 
@@ -6,47 +6,6 @@
 }
 
 
-.projectsContainer {
-    width: 100%;
-    margin-top: 50px; 
-}
-
-.card {
-    height: 340px;
-    width: 100px;
-    margin: 20px 10px 50px 10px; 
-    border-color: #aaa8a8;
-}
-
-.card a{
-    height: 100%;
-}
-
-.projectsContainer .card:hover {
-    margin-top: 17px;
-    transition: 0.5s; 
-}
-
-.projectsContainer .card-title {
-    font-weight: bolder;
-    color: #aaa8a8; 
-}
-
-.projectsContainer .card-text {
-    color: #aaa8a8;
-}
-
-.projectsContainer .btn {
-    bottom: 5px; 
-    background-color: black;
-    border-color: rgb(43, 43, 43);
-    color: #aaa8a8;
-}
-
-.projectsContainer .btn:hover {
-    background-color: rgb(22, 22, 22);
-    border-color: #aaa8a8;
-}
 
 #Skills {
     padding: 40px;
@@ -145,14 +104,22 @@
     text-align: center;
     color: #aaa8a8;
 }
-  
+
+#parrafoContainer{
+    text-align: center;
+}
+
 #parrafo {
-    width: 90%;
-    
+    margin: 10px 40px;
+    text-align: justify;
     padding: 25px;
     font-size: x-large;
     margin: 25px;
     color: #aaa8a8; 
+}
+
+.carouselCellphone {
+    display: none; 
 }
   
 @media only screen and (max-width: 420px) {
@@ -160,6 +127,15 @@
         overflow-x: hidden; 
     }
     
+    .carouselWeb {
+        display: none;
+      }
+
+      .carouselCellphone {
+        display:flex;
+    }
+
+
     
     .flex-container {
         height: 400px;
@@ -183,15 +159,18 @@
     }
     
     #parrafo {
-        width: 99%;
         
+        margin: 10px 40px;
         padding: 10px;
         font-size: 20px;
-        margin: 0px; 
     }
 }
 
 @media only screen and (min-width: 421px) and (max-width: 1023px) {
+
+    .carouselCellphone {
+        display: none; 
+    }
 
     .flex-container {
         height: 400px;
@@ -209,8 +188,7 @@
     }
 
     #parrafo {
-        width: 99%;
-        
+        margin: 10px 40px;
         padding: 10px;
         font-size: 25px;
     }

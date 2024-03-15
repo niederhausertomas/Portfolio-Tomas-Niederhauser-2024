@@ -2,6 +2,9 @@ import React from 'react'
 import './Main.css'
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import Carousel from '../carousel/Carousel'
+import CarouselCellphone from '../carouselCellphone/CarouselCellphone'
+
 
 AOS.init();
 
@@ -9,89 +12,9 @@ const Main = () => {
   return (
     <main>
 		<h2 className="text-center" id="projects">Projects</h2>
-			<div className="projectsContainer d-flex flex-wrap justify-content-evenly">
-					<div className="card" style={{width: '18rem'}}>
-						<a target="blank" href="https://felipe-niederhauser.netlify.app/" className="btn btn-primary">
-							<img src="./images/Felipe-Niederhauser.png" className="card-img-top" alt="..."/>
-							<div className="card-body text-center">
-								<h5 className="card-title">Felipe Niederhauser Photo Journalist</h5>
-								<p className="card-text">Web App React.js <b>React.js <br/> 4/2023</b></p>
-							</div>
-						</a>
-					</div>
 
-                <div className="card" style={{width: '18rem'}}>
-					<a target="blank" href="https://paola-jofre-skin-care.netlify.app/" className="btn btn-primary">
-						<img src="./images/paola-jofre-skin-care.png" className="card-img-top" alt="..."/>
-						<div className="card-body text-center">
-							<h5 className="card-title">Paola Jofre Skin Care</h5>
-							<p className="card-text">e-commerce using React.js and Firebase for Paola Jofre Skin Care <b>React.js - Firebase <br/> 4/2023</b></p>
-                    	</div>
-					</a>
-                </div>
-
-                <div className="card" style={{width: '18rem'}}>
-					<a target="blank" href="https://niederhausertomas.github.io/La-playita-web/" className="btn btn-primary">
-						<img src="./images/LaPlayita.png" className="card-img-top" alt="..."/>
-						<div className="card-body text-center">
-							<h5 className="card-title">La Playita</h5>
-							<p className="card-text"> Website for the nautical school "La Playita." <b>HTML, CSS, JAVASCRIP. <br/> 12/2022</b></p>
-						</div>
-					</a>
-                </div>
-
-                <div className="card" style={{width: '18rem'}}>
-					<a target="blank" href="https://sunrising.com.ar/" className="btn btn-primary">
-						<img src="./images/sunraising.png" className="card-img-top" alt="..."/>
-						<div className="card-body text-center">
-							<h5 className="card-title">Sunrising</h5>
-							<p className="card-text">Website for "sunraising". <b>HTML, CSS, JAVASCRIP. <br/> 10/2022</b></p>						
-						</div>
-					</a>
-                </div>
-
-                <div className="card" style={{width: '18rem'}}>
-					<a target="blank" href="https://sofi-nieder-deco.netlify.app/" className="btn btn-primary">
-						<img src="./images/SofiNiederDeco.png" className="card-img-top" alt="..."/>
-						<div className="card-body text-center">
-							<h5 className="card-title">Sofi Nieder Deco</h5>
-							<p className="card-text"> 
-								e-comerce for "Sofi Nieder Deco". <b>React.js./firebase <br/> 06/2022</b>
-							</p>
-                    	</div>
-					</a>
-                </div>
-
-                <div className="card" style={{width: '18rem'}}>
-					<a target="blank" href="https://niederhausertomas.github.io/SebasHuergo/" className="btn btn-primary">
-						<img src="./images/sebasHuergo.png" className="card-img-top" alt="..."/>
-						<div className="card-body text-center">
-						<h5 className="card-title">Sebas Huergo web</h5>
-							<p className="card-text">Website for the film director.<br/> <b>HTML, CSS Y JAVASCRIPT. 06/2022</b></p>
-						</div>
-					</a>
-                </div>
-
-                <div className="card" style={{width: '18rem'}}>
-					<a target="blank" href="https://github.com/niederhausertomas/Proyecto-Dental.git" className="btn btn-primary">
-						<img src="./images/ProyectoDental.png" className="card-img-top" alt="..."/>
-                    	<div className="card-body text-center">
-                        	<h5 className="card-title">Proyecto Dental</h5>
-                        	<p className="card-text">Management system for a dental office. <br/><b>C++. <br/> 01/2022</b></p>
-                    	</div>
-                    </a>
-                </div>
-
-                <div className="card" style={{width: '18rem'}}>
-					<a target="blank" href="https://weather-app-tomas-niederhauser.netlify.app/" className="btn btn-primary">
-						<img src="./images/weather-app.png" className="card-img-top" alt="..."/>
-						<div className="card-body text-center">
-						<h5 className="card-title">The weather app - Tomas Niederhauser</h5>
-						<p className="card-text">web app using the GeoDB Cities and openweather APIs. <b>React.js. <br/> 3/2023</b></p>
-                    	</div>
-                    </a>
-                </div>
-			</div>
+			<Carousel/>
+			<CarouselCellphone/>
 
 			<hr/>
 			<h2 id="Skills">
@@ -179,17 +102,17 @@ const Main = () => {
 				About Me 
 			</h2>
 			<hr/>
-			<div>
-				<p id="parrafo" className="container">
-				Hello! My name is Tomás and I am a passionate front-end developer. I discovered my passion for programming after being a lawyer for many years. As a result, I decided to embark on a new adventure and study programming, which has been a life-changing decision.
+			<div id="parrafoContainer">
+				<p id="parrafo" >
+				<strong>Hello!</strong> My name is <strong>Tomás</strong> and I am a passionate <strong>front-end developer</strong>. I discovered my passion for programming after being a lawyer for many years. As a result, I decided to embark on a new adventure and study programming, which has been a life-changing decision.
 				<br/><br/>
-				Currently, I have knowledge in several programming languages, including C++, HTML, CSS, JavaScript, and React.js. In C++, I completed the first year of the Programming Technician degree at the National Technological University of Argentina. In HTML and CSS, I have studied at CoderHouse and Devrock School, and supplemented my learning with tutorials from YouTube, LinkedIn Learning. Additionally, I have acquired knowledge in JavaScript and React.js through courses at CoderHouse.
+				Currently, I have knowledge in several programming languages, including <strong>C++</strong>, <strong>HTML</strong>, <strong>CSS</strong>, <strong>JavaScript</strong>, and <strong>React.js</strong>. In <strong>C++</strong>, I completed the first year of the <strong>Programming Technician</strong> degree at the <strong>National Technological University of Argentina</strong>. In <strong>HTML</strong> and <strong>CSS</strong>, I have studied at <strong>CoderHouse</strong> and <strong>Devrock School</strong>, and supplemented my learning with tutorials from <strong>YouTube</strong>, <strong>LinkedIn Learning</strong>. Additionally, I have acquired knowledge in <strong>JavaScript</strong> and <strong>React.js</strong> through courses at <strong>CoderHouse</strong>.
 				<br/><br/>
-				Moreover, through hands-on experience, I have expanded my skill set to include WordPress/PHP, Vue.js, MySQL, and TypeScript. Embracing the idea that learning is a continuous journey, I actively seek out opportunities to enhance my expertise. I am proactive in leveraging resources such as tutorials, forums, and developer communities to stay updated with the latest trends and best practices.
+				Moreover, through hands-on experience, I have expanded my skill set to include <strong>WordPress/PHP</strong>, <strong>Vue.js</strong>, <strong>MySQL</strong>, and <strong>TypeScript</strong>. Embracing the idea that learning is a <strong>continuous journey</strong>, I actively seek out opportunities to enhance my expertise. I am proactive in leveraging resources such as tutorials, forums, and developer communities to stay updated with the latest trends and <strong>best practices</strong>.
 				<br/><br/>
-				I enjoy working in environments where people are valued, and where there is a focus on professional and personal development. I like to help others and work in a team. I believe that communication is the key to success in any type of organization and teamwork.
+				I enjoy working in environments where people are valued, and where there is a focus on professional and personal development. I like to <strong>help others</strong> and work in a team. I believe that <strong>communication</strong> is the <strong>key to success</strong> in any type of organization and <strong>teamwork</strong>.
 				<br/><br/>
-				My personal goal is to continue growing and developing as a programmer, which is what I am truly passionate about. I want to continue gaining experience and someday be the one to pass on that knowledge to others.
+				My <strong>personal goal</strong> is to continue growing and developing as a <strong>programmer</strong>, which is what I am truly passionate about. I want to continue gaining experience and someday be the one to pass on that knowledge to others.
 				</p>
 			</div>
 
