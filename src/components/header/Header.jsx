@@ -4,8 +4,14 @@ import './Header.css'
 const Header = () => {
 
     const downloadResume = () => {
-        window.open('./ResumeTomasNiederhauser2024.pdf');
-      }
+        const url = './ResumeTomasNiederhauser2024.pdf';
+        const link = document.createElement('a');
+        link.href = url;
+        link.setAttribute('download', 'ResumeTomasNiederhauser2024.pdf');
+        document.body.appendChild(link);
+        link.click();
+        document.body.removeChild(link);
+    }
 
   return (
     <header>
