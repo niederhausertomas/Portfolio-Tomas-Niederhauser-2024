@@ -12,15 +12,11 @@ const Main = () => {
   return (
     <main>
 		<h2 className="text-center" id="projects">Projects</h2>
-
 			<Carousel/>
 			<CarouselCellphone/>
-
-			<hr/>
 			<h2 id="Skills">
 				Skills 
 			</h2>
-			<hr/>
 				<div className="containerIconos text-center">
 					<ul className="d-flex flex-wrap justify-content-evenly iconos"> 
 						<li className="icono">
@@ -81,12 +77,9 @@ const Main = () => {
 						</li>
 					</ul>
 				</div>
-
-			<hr/>
 			<h2 id="studies">
 				Studies 
 			</h2>
-			<hr/>
 			<div>
 				<ul className="estudios">
 					<li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">CODER HOUSE - REACT.JS.</li>
@@ -96,12 +89,9 @@ const Main = () => {
 				    <li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">UNIVERSITY OF BUENOS AIRES - LAWYER.</li>
 				  </ul>
 			</div>
-
-			<hr/>
 			<h2 id="about">
 				About Me 
 			</h2>
-			<hr/>
 			<div id="parrafoContainer">
 				<p id="parrafo" >
 				<strong>Hello!</strong> My name is <strong>Tomás</strong> and I am a passionate <strong>front-end developer</strong>. I discovered my passion for programming after being a lawyer for many years. As a result, I decided to embark on a new adventure and study programming, which has been a life-changing decision.
@@ -115,7 +105,6 @@ const Main = () => {
 				My <strong>personal goal</strong> is to continue growing and developing as a <strong>programmer</strong>, which is what I am truly passionate about. I want to continue gaining experience and someday be the one to pass on that knowledge to others.
 				</p>
 			</div>
-
 		</main>
   )
 }
