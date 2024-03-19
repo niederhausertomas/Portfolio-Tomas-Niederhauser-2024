@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import Carousel from '../carousel/Carousel'
 import CarouselCellphone from '../carouselCellphone/CarouselCellphone'
+import Skills from '../skills/Skills';
 
 
 AOS.init();
@@ -14,69 +15,8 @@ const Main = () => {
 		<h2 className="text-center" id="projects">Projects</h2>
 			<Carousel/>
 			<CarouselCellphone/>
-			<h2 id="Skills">
-				Skills 
-			</h2>
-				<div className="containerIconos text-center">
-					<ul className="d-flex flex-wrap justify-content-evenly iconos"> 
-						<li className="icono">
-							<img src="images/html.png" alt=""/>
-							<span>HTML</span>
-						</li> 
-						<li className="icono">
-							<img src="images/css.png" alt=""/>
-							<span>CSS</span>
-						</li>
-						<li className="icono">
-							<img src="images/sass.png" alt=""/>
-							<span>SASS</span>
-						</li>
-						<li className="icono">
-							<img src="images/Bootstrap.png" alt=""/>
-							<span>Bootstrap</span>
-						</li>
-						<li className="icono">
-							<img src="images/javascript.png" alt=""/>
-							<span>Javascrip</span>
-						</li>
-						<li className="icono">
-							<img src="images/react.png" alt=""/>
-							<span>React.js</span>
-						</li>
-						<li className="icono">
-							<img src="images/firebase.png" alt=""/>
-							<span>Firebase</span>
-						</li>
-						<li className="icono">
-							<img src="images/git.png" alt=""/>
-							<span>Git</span>
-						</li>
-						<li className="icono">
-							<img src="images/github.png" alt=""/>
-							<span>Github</span>
-						</li>
-						<li className="icono">
-							<img src="images/c++.png" alt=""/>
-							<span>C++</span>
-						</li>
-						<li className="icono">
-							<img src="images/wordpress.png" alt=""/>
-							<span>Wordpress</span>
-						</li>
-						<li className="icono">
-							<img src="images/vueJs.png" alt=""/>
-							<span>Vue.js</span>
-						</li>
-						<li className="icono">
-							<img src="images/Mysql.png" alt=""/>
-							<span>MySql</span>
-						</li>
-						<li className="icono">
-							<img src="images/Typescript.png" alt=""/>
-							<span>Typescript</span>
-						</li>
-					</ul>
-				</div>
+		<h2 id="Skills">Skills</h2>
+			<Skills/>
 			<h2 id="studies">
 				Studies 
 			</h2>
