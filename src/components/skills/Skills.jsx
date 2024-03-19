@@ -30,7 +30,7 @@ const Skills = () => {
       const valueDisplay = document.querySelector(".num");
       const endValue = parseInt(valueDisplay.getAttribute('data-val'));
       let startValue = 0;
-      const interval = 4500;
+      const interval = 4000;
       const duration = Math.floor(interval / endValue);
 
       const intervalId = setInterval(() => {
@@ -54,8 +54,8 @@ const Skills = () => {
                 <img className='SalesforceLogo' src="images/Salesforce.png" alt="Salesforce logo" />
             </div>
             <div className='containerSalesForceNumber'>
-                <h3 className='Trailhead' >Trailhead</h3>
-                <span className='num' data-val='400'>000</span>
+                <h3 className='Trailhead' >Trailhead <br/> Points</h3>
+                <span className='num' data-val='1300'>000</span>
             </div>
         </div>
         <div className="containerIconos text-center">
