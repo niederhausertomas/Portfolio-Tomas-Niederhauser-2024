@@ -5,6 +5,7 @@ import 'aos/dist/aos.css';
 import Carousel from '../carousel/Carousel'
 import CarouselCellphone from '../carouselCellphone/CarouselCellphone'
 import Skills from '../skills/Skills';
+import Contact from '../contact/Contact';
 
 
 AOS.init();
@@ -45,6 +46,8 @@ const Main = () => {
 				My <strong>personal goal</strong> is to continue growing and developing as a <strong>programmer</strong>, which is what I am truly passionate about. I want to continue gaining experience and someday be the one to pass on that knowledge to others.
 				</p>
 			</div>
+
+			<Contact/>
 		</main>
   )
 }

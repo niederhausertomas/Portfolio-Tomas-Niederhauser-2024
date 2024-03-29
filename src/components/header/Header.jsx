@@ -36,7 +36,7 @@ const Header = () => {
                                 <a className="nav-link" href="#about" >About me </a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="https://wa.me/34600517772" target="blank">Contact</a>
+                                <a className="nav-link" href="#contact" >Contact</a>
                             </li>
                         </ul>
                     </div>
