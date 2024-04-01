@@ -54,7 +54,7 @@ const Skills = () => {
                 <img className='SalesforceLogo' src="images/Salesforce.png" alt="Salesforce logo" />
             </div>
             <div className='containerSalesForceNumber'>
-                <h3 className='Trailhead' >Trailhead <br/> Points</h3>
+                <h3 className='Trailhead' >Trailhead <br/> Points:</h3>
                 <span className='num' data-val='1300'>000</span>
             </div>
         </div>

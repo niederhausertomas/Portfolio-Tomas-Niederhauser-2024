@@ -12,9 +12,21 @@ const CarouselCellphone = () => {
                 <img src="./images/Felipe-Niederhauser.png" className="card-img-top" alt="..."/>
                 <div className="card-body text-center">
                   <h5 className="card-title">Felipe Niederhauser Photo Journalist</h5>
-                  <p className="card-text">Web App React.js <b>React.js <br/> 4/2023</b></p>
+                  <p className="card-text">Web App React.js <b>React.js</b></p>
                 </div>
               </a>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <div className="card d-block " style={{width: '18rem', margin: '0px 45px'}}>
+                <a target="blank" href="https://niederhausertomas.github.io/AguaKangen/" className="btn" >
+                  <img src="./images/aguaKangen.png" className="card-img-top" alt="..."/>
+                  <div className="card-body text-center">
+                    <h5 className="card-title">Agua Kangen</h5>
+                    <p className="card-text">Website for "Agua Kangen". <b>HTML, CSS, JAVASCRIP. </b></p>						
+                  </div>
+                </a>
             </div>
           </div>
 
@@ -24,7 +36,7 @@ const CarouselCellphone = () => {
                 <img src="./images/paola-jofre-skin-care.png" className="card-img-top" alt="..."/>
                 <div className="card-body text-center">
                   <h5 className="card-title">Paola Jofre Skin Care</h5>
-                  <p className="card-text">e-commerce for Paola Jofre Skin Care <b>React.js - Firebase <br/> 4/2023</b></p>
+                  <p className="card-text">e-commerce for Paola Jofre Skin Care <b>React.js - Firebase </b></p>
                 </div>
               </a>
             </div>
@@ -36,7 +48,7 @@ const CarouselCellphone = () => {
                 <img src="./images/LaPlayita.png" className="card-img-top" alt="..."/>
                 <div className="card-body text-center">
                   <h5 className="card-title">La Playita</h5>
-                  <p className="card-text"> Website for the nautical school "La Playita." <b>HTML, CSS, JAVASCRIP. <br/> 12/2022</b></p>
+                  <p className="card-text"> Website for the nautical school "La Playita." <b>HTML, CSS, JAVASCRIP. </b></p>
                 </div>
               </a>
             </div>
@@ -48,7 +60,7 @@ const CarouselCellphone = () => {
                 <img src="./images/sunraising.png" className="card-img-top" alt="..."/>
                 <div className="card-body text-center">
                   <h5 className="card-title">Sunrising</h5>
-                  <p className="card-text">Website for "sunraising". <b>HTML, CSS, JAVASCRIP. <br/> 10/2022</b></p>						
+                  <p className="card-text">Website for "sunraising". <b>HTML, CSS, JAVASCRIP. </b></p>						
                 </div>
               </a>
             </div>
@@ -61,7 +73,7 @@ const CarouselCellphone = () => {
                 <div className="card-body text-center">
                   <h5 className="card-title">Sofi Nieder Deco</h5>
                   <p className="card-text"> 
-                    e-comerce for "Sofi Nieder Deco". <b>React.js./firebase <br/> 06/2022</b>
+                    e-comerce for "Sofi Nieder Deco". <b>React.js./firebase</b>
                   </p>
                 </div>
               </a>
@@ -74,7 +86,7 @@ const CarouselCellphone = () => {
                 <img src="./images/sebasHuergo.png" className="card-img-top" alt="..."/>
                 <div className="card-body text-center">
                 <h5 className="card-title">Sebas Huergo web</h5>
-                  <p className="card-text">Website for the film director.<br/> <b>HTML, CSS Y JAVASCRIPT. 06/2022</b></p>
+                  <p className="card-text">Website for the film director.<br/> <b>HTML, CSS Y JAVASCRIPT.</b></p>
                 </div>
               </a>
             </div>
@@ -86,7 +98,7 @@ const CarouselCellphone = () => {
                 <img src="./images/ProyectoDental.png" className="card-img-top" alt="..."/>
                 <div className="card-body text-center">
                     <h5 className="card-title">Proyecto Dental</h5>
-                    <p className="card-text">Management system for a dental office. <br/><b>C++. <br/> 01/2022</b></p>
+                    <p className="card-text">Management system for a dental office. <br/><b>C++.</b></p>
                 </div>
               </a>
             </div>
@@ -98,7 +110,7 @@ const CarouselCellphone = () => {
                 <img src="./images/weather-app.png" className="card-img-top" alt="..."/>
                 <div className="card-body text-center">
                 <h5 className="card-title">The weather app - Tomas Niederhauser</h5>
-                <p className="card-text">web app using the GeoDB Cities and openweather APIs. <b>React.js. <br/> 3/2023</b></p>
+                <p className="card-text">web app using the GeoDB Cities and openweather APIs. <b>React.js.</b></p>
                 </div>
               </a>
             </div>
