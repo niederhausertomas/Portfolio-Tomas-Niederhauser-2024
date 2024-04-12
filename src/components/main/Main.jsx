@@ -6,6 +6,7 @@ import Carousel from '../carousel/Carousel'
 import CarouselCellphone from '../carouselCellphone/CarouselCellphone'
 import Skills from '../skills/Skills';
 import Contact from '../contact/Contact';
+import Studies from '../studies/Studies';
 
 
 AOS.init();
@@ -21,15 +22,12 @@ const Main = () => {
 			<h2 id="studies">
 				Studies 
 			</h2>
-			<div>
-				<ul className="estudios">
-					<li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">CODER HOUSE - REACT.JS.</li>
-					<li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">CODER HOUSE - JAVASCRIPT.</li>
-					<li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">CODER HOUSE - WEB DEVELOPMENT.</li>
-					<li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">UTN (NATIONAL TECHNICAL UNIVERSITY OF ARGENTINA) - UNIVERSITY TECHNIQUE IN PROGRAMMING. FIRST FULL YEAR.</li>
-				    <li data-aos="fade-right" data-aos-offset="300" data-aos-easing="ease-in-sine">UNIVERSITY OF BUENOS AIRES - LAWYER.</li>
-				  </ul>
+
+			<div className='studiesContainer'>
+				<Studies/>	
+
 			</div>
+
 			<h2 id="about">
 				About Me 
 			</h2>

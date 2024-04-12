@@ -50,7 +50,7 @@ const Skills = () => {
     return (
     <div>
         <div className="SalesForceContainer d-flex flex-wrap justify-content-evenly iconos text-center">
-            <div className='containerSalesforceLogo'>
+            <div className='container containerSalesforceLogo'>
                 <img className='SalesforceLogo' src="images/Salesforce.png" alt="Salesforce logo" />
             </div>
             <div className='containerSalesForceNumber'>
@@ -58,7 +58,7 @@ const Skills = () => {
                 <span className='num' data-val='1300'>000</span>
             </div>
         </div>
-        <div className="containerIconos text-center">
+        <div className="container containerIconos text-center">
             <ul className="d-flex flex-wrap justify-content-evenly iconos"> 
                 <li className="icono">
                     <img src="images/html.png" alt="html logo"/>
