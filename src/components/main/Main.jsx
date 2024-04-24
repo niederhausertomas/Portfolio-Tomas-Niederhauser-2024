@@ -1,7 +1,5 @@
 import React from 'react'
 import './Main.css'
-import AOS from 'aos';
-import 'aos/dist/aos.css';
 import Carousel from '../carousel/Carousel'
 import CarouselCellphone from '../carouselCellphone/CarouselCellphone'
 import Skills from '../skills/Skills';
@@ -9,7 +7,6 @@ import Contact from '../contact/Contact';
 import Studies from '../studies/Studies';
 
 
-AOS.init();
 
 const Main = () => {
   return (
@@ -31,7 +28,7 @@ const Main = () => {
 			<h2 id="about">
 				About Me 
 			</h2>
-			<div id="parrafoContainer">
+			<div className='container' id="parrafoContainer">
 				<p id="parrafo" >
 				<strong>Hello!</strong> My name is <strong>Tomás</strong> and I am a passionate <strong>front-end developer</strong>. I discovered my passion for programming after being a lawyer for many years. As a result, I decided to embark on a new adventure and study programming, which has been a life-changing decision.
 				<br/><br/>

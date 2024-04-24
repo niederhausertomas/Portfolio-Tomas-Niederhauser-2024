@@ -19,6 +19,10 @@ const Studies = () => {
             name: "National Technical University of Argentina (UTN)",
             description: "University technique in programming, first full year"
         },
+        {
+            name: "www.codearock.com",
+            description: "HTML for Babies / JavaScript from zero"
+        },
     ];
 
     return (

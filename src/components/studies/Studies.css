@@ -57,7 +57,9 @@
 }
 
 @media only screen and (max-width: 420px) {
-
+    .studiesContainer{
+        height: 900px;    
+    }
     .timeline{
         background: none;
         width: 90%;
