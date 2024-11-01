@@ -57,7 +57,7 @@
     margin: 10px 40px;
     text-align: justify;
     padding: 25px;
-    font-size: x-large;
+    font-size: large;
     margin: 25px;
     color: #aaa8a8; 
 }
@@ -100,10 +100,9 @@
     }
     
     #parrafo {
-        
         margin: 10px 10px;
         padding: 10px;
-        font-size: 20px;
+        font-size: 17px;
     }
 
     .icono img {
@@ -136,6 +135,6 @@
     #parrafo {
         margin: 10px 30px;
         padding: 10px;
-        font-size: 25px;
+        font-size: 20px;
     }
 }
