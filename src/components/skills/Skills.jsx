@@ -1,55 +1,55 @@
-import React, { useEffect, useState } from 'react';
+//import React, { useEffect, useState } from 'react';
 import './Skills.css';
 
 const Skills = () => {
-  const [isVisible, setIsVisible] = useState(false);
+  // const [isVisible, setIsVisible] = useState(false);
 
-  useEffect(() => {
-    const handleScroll = () => {
-      const element = document.querySelector(".num");
-      const bounding = element.getBoundingClientRect();
+  // useEffect(() => {
+  //   const handleScroll = () => {
+  //     const element = document.querySelector(".num");
+  //     const bounding = element.getBoundingClientRect();
 
-      if (
-        bounding.top >= 0 &&
-        bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
-      ) {
-        setIsVisible(true);
-      } else {
-        setIsVisible(false); // Si el elemento ya no está visible, establece isVisible en false
-      }
-    };
+  //     if (
+  //       bounding.top >= 0 &&
+  //       bounding.bottom <= (window.innerHeight || document.documentElement.clientHeight)
+  //     ) {
+  //       setIsVisible(true);
+  //     } else {
+  //       setIsVisible(false); // Si el elemento ya no está visible, establece isVisible en false
+  //     }
+  //   };
 
-    window.addEventListener('scroll', handleScroll);
-    return () => {
-      window.removeEventListener('scroll', handleScroll);
-    };
-  }, []);
+  //   window.addEventListener('scroll', handleScroll);
+  //   return () => {
+  //     window.removeEventListener('scroll', handleScroll);
+  //   };
+  // }, []);
 
-  useEffect(() => {
-    if (isVisible) {
-      const valueDisplay = document.querySelector(".num");
-      const endValue = parseInt(valueDisplay.getAttribute('data-val'));
-      let startValue = 0;
-      const interval = 4000;
-      const duration = Math.floor(interval / endValue);
+  // useEffect(() => {
+  //   if (isVisible) {
+  //     const valueDisplay = document.querySelector(".num");
+  //     const endValue = parseInt(valueDisplay.getAttribute('data-val'));
+  //     let startValue = 0;
+  //     const interval = 4000;
+  //     const duration = Math.floor(interval / endValue);
 
-      const intervalId = setInterval(() => {
-        startValue++;
-        if (startValue <= endValue) {
-          valueDisplay.textContent = startValue;
-        } else {
-          clearInterval(intervalId);
-        }
-      }, duration);
+  //     const intervalId = setInterval(() => {
+  //       startValue++;
+  //       if (startValue <= endValue) {
+  //         valueDisplay.textContent = startValue;
+  //       } else {
+  //         clearInterval(intervalId);
+  //       }
+  //     }, duration);
 
-      return () => clearInterval(intervalId);
-    }
-  }, [isVisible]);
+  //     return () => clearInterval(intervalId);
+  //   }
+  // }, [isVisible]);
   
   
     return (
     <div>
-        <div className="SalesForceContainer d-flex flex-wrap justify-content-evenly iconos text-center">
+        {/* <div className="SalesForceContainer d-flex flex-wrap justify-content-evenly iconos text-center">
             <div className='container containerSalesforceLogo'>
                 <img className='SalesforceLogo' src="images/Salesforce.png" alt="Salesforce logo" />
             </div>
@@ -57,7 +57,7 @@ const Skills = () => {
                 <h3 className='Trailhead' >Trailhead <br/> Points:</h3>
                 <span className='num' data-val='1300'>000</span>
             </div>
-        </div>
+        </div> */}
         <div className="container containerIconos text-center">
             <ul className="d-flex flex-wrap justify-content-evenly iconos"> 
                 <li className="icono">
@@ -75,6 +75,10 @@ const Skills = () => {
                 <li className="icono">
                     <img src="images/Bootstrap.png" alt="Bootstrap logo"/>
                     <span>Bootstrap</span>
+                </li>
+                <li className="icono">
+                    <img src="images/tailwind.png" alt="Tailwind logo"/>
+                    <span>Tailwind</span>
                 </li>
                 <li className="icono">
                     <img src="images/javascript.png" alt="javascript logo"/>

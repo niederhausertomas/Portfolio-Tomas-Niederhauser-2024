@@ -44,7 +44,7 @@ const Header = () => {
             </nav>
 				<div id="fotoNombre" className="container">
 					<div className="d-flex justify-content-center">
-						<img className="foto" alt='profilePhoto' src="images/fotoTomasNieder.png"/>
+						<img className="foto" alt='profilePhoto' src="images/tomas.png"/>
 					</div>
 						<h2 id="nombre" className="d-flex justify-content-center">
 							Tomás <br/>
