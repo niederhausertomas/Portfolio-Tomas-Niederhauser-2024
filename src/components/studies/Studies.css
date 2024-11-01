@@ -1,5 +1,5 @@
 .studiesContainer{
-        height: 700px;    
+    height: 700px;    
 }
 
 .timeline{
@@ -85,8 +85,27 @@
 
 @media only screen and (min-width: 421px) and (max-width: 1023px) {
 
-    .studiTitles{
-        font-size: 25px;
+    .studiesContainer{
+        height: 900px;    
+    }
+    .timeline{
+        background: none;
+        width: 90%;
+        left: 5%;
+        margin-top: 60px;    
     }
 
+    .child{
+        position: left;
+    }
+
+    .child:nth-child(even){
+        float: left;
+        text-align: left;
+    }
+
+    .studiTitles{
+        font-size: 25px;
+        margin-top: 25px;
+    }
 }
