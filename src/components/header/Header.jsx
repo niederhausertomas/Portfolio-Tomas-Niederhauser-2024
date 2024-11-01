@@ -46,10 +46,10 @@ const Header = () => {
 					<div className="d-flex justify-content-center">
 						<img className="foto" alt='profilePhoto' src="images/tomas.png"/>
 					</div>
-						<h2 id="nombre" className="d-flex justify-content-center">
-							Tomás <br/>
-							Niederhauser
-						</h2>
+                    <h2 id="nombre" className="d-flex justify-content-center">
+                        Tomás <br/>
+                        Niederhauser
+                    </h2>
                     <div className='frontendContainer'>
                         <h1 id="frontend">Front-end Developer</h1>
                     </div>
