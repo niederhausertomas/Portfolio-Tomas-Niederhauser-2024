@@ -10,7 +10,7 @@ const Carousel = () => {
               <div className="d-flex flex-wrap justify-content-evenly">
 
               <div className="card" style={{width: '18rem'}}>
-                  <a target="blank" href="https:www.biorce.com" className="btn">
+                  <a target="blank" href="https://www.biorce.com/" className="btn">
                       <img src="./images/biorce-web.png" className="card-img-top" alt="..."/>
                       <div className="card-body text-center">
                           <h5 className="card-title">Biorce web</h5>
