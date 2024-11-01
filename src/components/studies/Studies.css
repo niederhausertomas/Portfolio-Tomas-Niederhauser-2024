@@ -64,8 +64,7 @@
         background: none;
         width: 90%;
         left: 5%;
-        margin-top: 60px;
-       
+        margin-top: 60px;    
     }
 
     .child{
@@ -78,7 +77,7 @@
     }
 
     .studiTitles{
-        font-size: 30px;
+        font-size: 25px;
         margin-top: 25px;
     }
 
@@ -86,7 +85,8 @@
 
 @media only screen and (min-width: 421px) and (max-width: 1023px) {
 
-
-
+    .studiTitles{
+        font-size: 25px;
+    }
 
 }
